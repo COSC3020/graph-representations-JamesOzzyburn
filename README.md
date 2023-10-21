@@ -20,3 +20,9 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+## Answer
+
+I believe that the runtime complexity of the conversion is $\Theta$ $(n^2)$ where $n$ is the number of verticies. I believe this because all the program does is loop through a list of length $n$ where each element $n$ is also a list of length $n$ and $\Theta$ $(n * n)$ is the same as $\Theta$ $(n^2)$. Also from past classes and exercises we know that going through nested for loops will just be $\Theta$ $(n^2)$.
+
+I believe that the only thing that affect runtime is the number of verticies. I believe this because as previously stated we just iterate through a 2D list and we just look at the edge to see if it exists or not but we dont do anything with it.
